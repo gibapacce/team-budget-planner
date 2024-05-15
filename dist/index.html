@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Budget Planner</title>
+</head>
+
+<body>
+  <h1>Team Budget Planner</h1>
+  <div id="app">
+    <form id="dealForm">
+      <label for="vendor">Vendor:</label>
+      <input type="text" id="vendor" name="vendor" required>
+      <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" required>
+      <button type="submit">Add Deal</button>
+    </form>
+    <div id="expenses"></div>
+    <div id="budget"></div>
+  </div>
+  <script src="bundle.js"></script>
+</body>
+
+</html>
